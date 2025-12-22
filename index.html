@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Movie Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>🎄 Christmas Movie Picker 🎄</h1>
+            <p class="subtitle">Can't decide what to watch? Let fate decide!</p>
+        </header>
+
+        <main>
+            <div id="movie-display" class="movie-display">
+                <div class="placeholder">
+                    <span class="gift-icon">🎁</span>
+                    <p>Click the button to unwrap your movie!</p>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="pick-btn" class="btn btn-pick">
+                    🎅 Pick a Movie!
+                </button>
+                <button id="watched-btn" class="btn btn-watched" style="display: none;">
+                    ✓ Mark as Watched
+                </button>
+            </div>
+
+            <div id="status" class="status"></div>
+
+            <div class="footer-controls">
+                <button id="reset-btn" class="btn btn-reset">
+                    🔄 Reset Watch History
+                </button>
+                <p id="movies-remaining" class="movies-remaining"></p>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
