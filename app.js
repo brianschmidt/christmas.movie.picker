@@ -1,124 +1,125 @@
 // Christmas Movies Database
+// Using OMDB poster URLs (via IMDb) which are publicly accessible
 const christmasMovies = [
     {
         id: 1,
         title: "Home Alone",
         year: 1990,
-        poster: "https://image.tmdb.org/t/p/w500/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
     },
     {
         id: 2,
         title: "Elf",
         year: 2003,
-        poster: "https://image.tmdb.org/t/p/w500/oOleziEempUPu96jkGs0Pj6tKxj.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMzUxNzkzMzQtYjIxZC00NzU0LThkYTQtZjNhNTljMTA1MDA1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
     },
     {
         id: 3,
         title: "The Polar Express",
         year: 2004,
-        poster: "https://image.tmdb.org/t/p/w500/iNBs6xGJVgwazZeqWUhdCyKR7EL.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTM1NTU0NTE4MV5BMl5BanBnXkFtZTcwMTQ0MjEzMw@@._V1_SX300.jpg"
     },
     {
         id: 4,
         title: "A Christmas Story",
         year: 1983,
-        poster: "https://image.tmdb.org/t/p/w500/qTfE33WUUD7IaM9EFVvbTvlYoyU.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BOGMxMjMzMTYtYjVkMy00YzYwLWJmNDgtYzJkYjRmNDdhZGYwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_SX300.jpg"
     },
     {
         id: 5,
         title: "National Lampoon's Christmas Vacation",
         year: 1989,
-        poster: "https://image.tmdb.org/t/p/w500/hZn69mqYDqYzg3X2oza3bKEYsAA.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTk3NjYwOTI3M15BMl5BanBnXkFtZTgwOTgzMjgyMDE@._V1_SX300.jpg"
     },
     {
         id: 6,
         title: "It's a Wonderful Life",
         year: 1946,
-        poster: "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_SX300.jpg"
     },
     {
         id: 7,
-        title: "The Grinch",
+        title: "How the Grinch Stole Christmas",
         year: 2000,
-        poster: "https://image.tmdb.org/t/p/w500/5Fh1YpQVPNboJASOYlPLOqpMcCi.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BNWNiNTczNzEtMjQyZC00MjFmLTkzMDMtODk4ZGMyZmE0N2E4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
     },
     {
         id: 8,
         title: "A Christmas Carol",
         year: 2009,
-        poster: "https://image.tmdb.org/t/p/w500/yx3EMoxrBgqJoYIbymqFVekJrqx.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTM0MjE0MzMzNV5BMl5BanBnXkFtZTcwNjcyMzMzMg@@._V1_SX300.jpg"
     },
     {
         id: 9,
         title: "The Santa Clause",
         year: 1994,
-        poster: "https://image.tmdb.org/t/p/w500/xBP5ZjAdxo3dNZv5APfwdgEYuid.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BNzBkYjNkNGItZmZlYS00OTQ4LWI3NzYtMWI2NDAwYzljMWQ0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
     },
     {
         id: 10,
         title: "Die Hard",
         year: 1988,
-        poster: "https://image.tmdb.org/t/p/w500/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
     },
     {
         id: 11,
         title: "Love Actually",
         year: 2003,
-        poster: "https://image.tmdb.org/t/p/w500/5tABfNnUR32hBDKnkCH5LCKlJRD.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_SX300.jpg"
     },
     {
         id: 12,
         title: "The Nightmare Before Christmas",
         year: 1993,
-        poster: "https://image.tmdb.org/t/p/w500/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_SX300.jpg"
     },
     {
         id: 13,
         title: "Home Alone 2: Lost in New York",
         year: 1992,
-        poster: "https://image.tmdb.org/t/p/w500/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BNDI1MzM0Y2YtYmIyMS00ODE3LTlhZjEtZTUyNmEzMTNhZWU5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
     },
     {
         id: 14,
         title: "Miracle on 34th Street",
-        year: 1994,
-        poster: "https://image.tmdb.org/t/p/w500/qGGUmLjnYfJHIOs7kBbHZPujcos.jpg"
+        year: 1947,
+        poster: "https://m.media-amazon.com/images/M/MV5BNzEwODkxNjgwMl5BMl5BanBnXkFtZTgwNTU0MzkyMjE@._V1_SX300.jpg"
     },
     {
         id: 15,
         title: "The Holiday",
         year: 2006,
-        poster: "https://image.tmdb.org/t/p/w500/6loGhnozT5dJeKgOG3i6dEQPRYO.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTUyNTE3MDM1NF5BMl5BanBnXkFtZTcwMDA4Mzc1NA@@._V1_SX300.jpg"
     },
     {
         id: 16,
         title: "Jingle All the Way",
         year: 1996,
-        poster: "https://image.tmdb.org/t/p/w500/eiZ2OjwHKHMXx1P4iagPp01qclQ.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMmJlYzViNzctMjQ1Ni00ZWQ4LThkNTYtNWJiNjhjMjIwMGVlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
     },
     {
         id: 17,
         title: "Fred Claus",
         year: 2007,
-        poster: "https://image.tmdb.org/t/p/w500/j2qvFLgdLnnNMBlEmKIjQrl9rik.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTcyODQzNDc1MV5BMl5BanBnXkFtZTcwODc0OTcyMw@@._V1_SX300.jpg"
     },
     {
         id: 18,
         title: "The Muppet Christmas Carol",
         year: 1992,
-        poster: "https://image.tmdb.org/t/p/w500/2LTigUOuLQeLKiPMDuSvEMpIoWD.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMDlkZWJhYzItNTc2Ny00YjUzLTgyYmYtYjYwZDBjMGY0NzE4XkEyXkFqcGdeQXVyMDU4NDkxOA@@._V1_SX300.jpg"
     },
     {
         id: 19,
         title: "Scrooged",
         year: 1988,
-        poster: "https://image.tmdb.org/t/p/w500/zVqwFh4vyKMQBKMjcrNmIFWXhv.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BM2RjNzFmOGUtYjhkOS00NzI4LWIzTGUtYjdiY2RiMjYzYTkzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
     },
     {
         id: 20,
         title: "Klaus",
         year: 2019,
-        poster: "https://image.tmdb.org/t/p/w500/q125RHUDgR4gjwh1QkfYuJLYkL.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMWYwOThjM2ItZGYxNy00NTQwLWFlZWEtM2MzM2Q5MmY3NDU5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
     }
 ];
 
