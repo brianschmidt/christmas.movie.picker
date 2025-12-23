@@ -23,7 +23,7 @@ const christmasMovies = [
         id: 4,
         title: "A Christmas Story",
         year: 1983,
-        poster: "https://m.media-amazon.com/images/M/MV5BOGMxMjMzMTYtYjVkMy00YzYwLWJmNDgtYzJkYjRmNDdhZGYwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BNTgzODczMzM2OF5BMl5BanBnXkFtZTgwNjgzMjEyMDE@._V1_.jpg"
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ const christmasMovies = [
         id: 9,
         title: "The Santa Clause",
         year: 1994,
-        poster: "https://m.media-amazon.com/images/M/MV5BNzBkYjNkNGItZmZlYS00OTQ4LWI3NzYtMWI2NDAwYzljMWQ0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BYmQxNmU4ZjgtYzE5Mi00ZDlhLTlhOTctMzJkNjk2ZGUyZGEwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
     },
     {
         id: 10,
@@ -119,7 +119,7 @@ const christmasMovies = [
         id: 20,
         title: "Klaus",
         year: 2019,
-        poster: "https://m.media-amazon.com/images/M/MV5BMWYwOThjM2ItZGYxNy00NTQwLWFlZWEtM2MzM2Q5MmY3NDU5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTkwOTc1NTk0NF5BMl5BanBnXkFtZTgwODY0Mzg4NzM@._V1_.jpg"
     }
 ];
 
