@@ -83,7 +83,7 @@ const christmasMovies = [
         id: 14,
         title: "Miracle on 34th Street",
         year: 1947,
-        poster: "https://m.media-amazon.com/images/M/MV5BNzEwODkxNjgwMl5BMl5BanBnXkFtZTgwNTU0MzkyMjE@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BYTJhNjYyMGMtYzRiNi00YjgzLWE5MjYtYzI3ODRiYmE1NmU1XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg"
     },
     {
         id: 15,
@@ -107,7 +107,7 @@ const christmasMovies = [
         id: 18,
         title: "The Muppet Christmas Carol",
         year: 1992,
-        poster: "https://m.media-amazon.com/images/M/MV5BMDlkZWJhYzItNTc2Ny00YjUzLTgyYmYtYjYwZDBjMGY0NzE4XkEyXkFqcGdeQXVyMDU4NDkxOA@@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMTQwODg0NDYtYjg4ZS00YTJhLWI5NDgtMjkzNTQ0MTQ3ODNjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
     },
     {
         id: 19,
