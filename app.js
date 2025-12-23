@@ -29,7 +29,7 @@ const christmasMovies = [
         id: 5,
         title: "National Lampoon's Christmas Vacation",
         year: 1989,
-        poster: "https://m.media-amazon.com/images/M/MV5BMTk3NjYwOTI3M15BMl5BanBnXkFtZTgwOTgzMjgyMDE@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODgwLTkxNDYtYzQ3ZjNhNjkwODMwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
     },
     {
         id: 6,
@@ -83,7 +83,7 @@ const christmasMovies = [
         id: 14,
         title: "Miracle on 34th Street",
         year: 1947,
-        poster: "https://m.media-amazon.com/images/M/MV5BYTJhNjYyMGMtYzRiNi00YjgzLWE5MjYtYzI3ODRiYmE1NmU1XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BNGM2NjQxNDktMWY0OS00YmZkLWEzMmYtMGYzOTE3YjM1YjI5XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg"
     },
     {
         id: 15,
