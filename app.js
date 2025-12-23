@@ -95,7 +95,7 @@ const christmasMovies = [
         id: 16,
         title: "Jingle All the Way",
         year: 1996,
-        poster: "https://m.media-amazon.com/images/M/MV5BMmJlYzViNzctMjQ1Ni00ZWQ4LThkNTYtNWJiNjhjMjIwMGVlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BMjExNTY5OTg3NV5BMl5BanBnXkFtZTcwNDI3MjA1MQ@@._V1_.jpg"
     },
     {
         id: 17,
@@ -113,7 +113,7 @@ const christmasMovies = [
         id: 19,
         title: "Scrooged",
         year: 1988,
-        poster: "https://m.media-amazon.com/images/M/MV5BM2RjNzFmOGUtYjhkOS00NzI4LWIzTGUtYjdiY2RiMjYzYTkzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+        poster: "https://m.media-amazon.com/images/M/MV5BYjA0NDMyYTgtMDgxOC00NGVlLTllMzMtZGY0NDg5YjFiMWM0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
     },
     {
         id: 20,
