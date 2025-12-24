@@ -6,10 +6,26 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1a472a 0%, #2d5a3f 50%, #1a472a 100%);
+    background-image: url('gavin-wilson-pPoNuKMp7zs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     min-height: 100vh;
     color: #fff;
     overflow-x: hidden;
+}
+
+/* Dark overlay for better text readability */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
 }
 
 /* Snowfall Animation */
